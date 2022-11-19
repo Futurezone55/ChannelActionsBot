@@ -36,7 +36,7 @@ import {
 import { I18n, I18nFlavor } from "i18n";
 
 import { MongoDBAdapter } from "mongo_sessions";
-// import { cron } from "deno_cron";
+import { cron } from "deno_cron";
 
 interface SessionData {
   __language_code?: string;
