@@ -83,7 +83,7 @@ for (const owner of config.OWNERS.split(" ")) {
   owners.push(Number(owner));
 }
 
-// const broadcasts = new Map();
+ const broadcasts = new Map();
 
 bot.callbackQuery(/set_locale_(.*)/, async (ctx) => {
   const i = ctx.match?.[0];
