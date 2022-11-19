@@ -1,7 +1,7 @@
 import { bot } from "./bot.ts";
 
 bot.start({
-  drop_pending_updates: true,
+  drop_pending_updates: false,
   allowed_updates: ["chat_join_request", "message", "callback_query"],
 });
 
