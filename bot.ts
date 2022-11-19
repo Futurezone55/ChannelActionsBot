@@ -371,7 +371,7 @@ bot.command("setlang", async (ctx) => {
      broadcasts.set("broadcast", reply).set("message", msg);
    });
 
- check every 2 minutes if a broadcast exists, and if yes, do it.
+ //check every 2 minutes if a broadcast exists, and if yes, do it.
  cron("*/2  * * * *", async () => {
    console.log("Checking for Broadcasts...")
    const msg = broadcasts.get("message");
